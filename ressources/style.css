@@ -1,0 +1,154 @@
+/* DOCUMENTATION INFORMATION 
+
+-Document: Thème test
+    -Version : 1.0.0
+    -Author : Stéphane
+*/
+
+/* COLORS
+    -defaut body text      
+    -h1                         
+    -h2                    
+    -h3
+    
+    -button 
+    -button:hover 
+
+    -icon          
+
+    -border 
+*/
+
+/*FONTS
+
+    -Defaut      
+    -Subtitle    
+
+*/
+
+/*CSS DIRECTORY
+    
+    1.   =GLOBAL
+    2.   =HEADER
+    3.   
+    4.   
+    5.   
+    6.   
+    7.   
+    8. 
+    9.   
+    10. 
+
+
+*/    
+  
+/* Global */
+
+
+html{
+    background-color: white;
+    font-family:'Lobster', cursive;
+}
+header{
+    background-image:linear-gradient(rgba(43, 114, 221, 0.1),rgba(28, 146, 224,0.2)),url(images/pexels-claire-thibault-57019.jpg);
+    background-size: cover;
+    
+
+} 
+h1,.p-color-white p{
+    font-family: 'Lobster', cursive ;
+    color: azure;
+}  
+h2{
+    font-family: 'Lobster', cursive ;
+    color: black; 
+    text-align: center;
+    margin: 30px 0px;
+}
+.p-text-align-right{
+    text-align: right;
+}
+section p{
+    font-family: 'Lobster', cursive;;
+}
+p{
+    font-size: 1.3rem;
+}
+a:link{
+    text-decoration: none;
+}
+/* Navbar */
+
+nav{
+    color: rgb(28, 25, 201);
+    font-size: 1.1rem;
+    
+}
+.color-nav-text{
+    color: rgb(28, 25, 201);
+}
+.size-icon-nav{
+    font-size: 2rem;
+    color: rgb(28, 25, 201);
+}
+/* Information */
+
+.padding-top-h1{
+    padding-top: 2%;
+}
+
+/* carousel */
+
+.w-100{
+    height: 600px;
+    border-radius: 20px ;
+    overflow: hidden;
+
+}
+h2::after{
+    display: block;
+    height: 4px;
+    background-color: rgb(28, 25, 201);
+    width: 100px;
+    content:"";
+    margin: 0 auto;
+    margin-top: 10px; 
+    font-size: 160%;      
+}
+.m-bottom-carousel{
+    margin-bottom: 52px;
+}
+/* Des oiseaux pas comme les autres */
+
+.container-eagle-md8{
+    padding: 0;
+    
+    border-radius: 20px ;
+    overflow: hidden;
+}
+.img-size-eagle{
+    width: 100%;
+    height: 350px;  
+}
+.m-bottom-40{
+    margin-bottom: 40px;
+}
+
+/* footer */
+
+footer{
+    background-image: url(./images/pexels-claire-thibault-57019.jpg);
+    height: 60px;
+}
+footer p, footer a{
+    color: azure;
+    font-size: 80%;
+    padding: 20px 0px;
+    margin: 0;
+}
+.copyright{
+    text-align: center;
+}
+
+
+
