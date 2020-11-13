@@ -1,0 +1,181 @@
+
+
+
+
+html{
+    font-family:'Lobster', cursive;
+    font-size: 1.2rem;
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.header a{
+    padding: 10px;
+    color: black;
+}
+.head-contact{
+    background-image:linear-gradient(rgba(43, 114, 221, 0.1),rgba(28, 146, 224,0.2)), url(./images/pexels-claire-thibault-57019.jpg);
+    color: azure;
+    background-size: cover;
+}
+.margin-text{
+    margin: 0px 30px ;
+}
+
+
+.sidebar{
+    flex: 1 0px;
+    order: 1;
+    width: 20%;
+    margin: 40px 5px;
+    background-color: #fff;
+    float: left;
+}
+.sidebar-secondary{
+    order: 3;
+}
+.size-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.body{
+    flex: 2 0px;
+    order: 2;
+    width: 60%;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    
+}
+body div{
+    margin-top: 20px;
+}
+.footer{
+    order: 3;
+    width: 100%;
+    height: 60px;
+    background-image:url(./images/pexels-claire-thibault-57019.jpg);
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    color: azure;
+}
+a:link{
+    text-decoration: none;
+    
+}
+.hidden-anchor  a:hover, .hidden-anchor a{
+    
+    color: azure ;
+} 
+
+.center{
+    text-align: center;
+}
+/* Contactez-nous */
+
+.size-position-map{
+    display: block;
+    margin-top: 40px;
+    width: 100%;   
+    text-align: center;
+}
+.width-300{
+    width: 300px;
+    height: 50px;
+}    
+
+.btn-contactez-moi{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    background-image:url(./images/pexels-claire-thibault-57019.jpg);
+    color: #fff;
+}
+.size-icon-400{
+    font-size: 400%;
+}
+/* footer */
+
+div label{
+    display: block;
+    margin: 10px 0px 10px;
+}
+footer{
+    font-size: 5px;
+}
+
+/* @media query */
+
+@media (max-width: 1250px) {
+    .body{
+        flex-basis: 100%;
+        flex: none;
+        order: 1 ;
+        width: 100%;    
+    }
+    .sidebar-first{    
+        order: 2;
+    }
+    .sidebar-secondary{   
+        order: 2;
+    }  
+}
+
+
+@media (max-width: 800px) {
+    .header{
+        height: 220px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .body{
+        
+        order: 1 ;
+        width: 100%;   
+    }
+    .sidebar-first{
+        order: 2;
+    }
+    .sidebar-secondary{
+        order: 3;
+    }
+}
+@media (max-width: 650px) {
+    .sidebar{
+        width: 100%;
+    }
+}
+
+
+
+/* 
+    flex-direction: column column-reverse;
+    flex-wrap: wrap;
+    flex-direction: row  row-reverse;
+    
+    justify-content: center space-around space-between flex-start flex-end ;
+
+    align-items: baseline stretch flex-start flex-end center;
+
+    flex-flow: column wrap;
+
+    align-content:center stretch space-around space-between flex-start flex-end;
+*/    

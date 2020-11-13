@@ -1,6 +1,6 @@
 /* DOCUMENTATION INFORMATION 
 
--Document: Thème test
+-Document: Thème Rapaces
     -Version : 1.0.0
     -Author : Stéphane
 */
@@ -150,7 +150,7 @@ h2::after{
 .img-size-family{
     display: block;
     width: 100%;
-    height: 400px; 
+     
      
 }
 .border-text-family-1 {
@@ -184,6 +184,55 @@ h2::after{
 .size-p-30{
     font-size: 30px;
 }
+.btn-height-page{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    border-top-left-radius:  50px;
+    border-bottom-right-radius: 50px;
+    background-image: url(./images/pexels-claire-thibault-57019.jpg);
+    color: azure;
+    
+}
+.hidden-anchor a:hover{
+    color: azure ;
+} 
+.m-bottom-0{
+    margin-bottom: 0;
+}
+/* Tableau */
+
+table{
+    width: 100%;
+    text-align: center  
+}
+th,td{
+    height: 50px;
+    vertical-align: middle;
+    
+}
+th{
+    text-decoration: underline;
+}
+.m-40-radius{
+    margin: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #eee;
+    box-shadow: 5px 5px 5px 2px rgba(95, 91, 91, 0.2);
+    
+}
+.color-green{
+    color: green;
+    font-size: 150%;
+}
+.color-red{
+    color: red;
+    font-size: 150%;
+}
 
 /* footer */
 
@@ -197,9 +246,8 @@ footer p, footer a{
     padding: 20px 0px;
     margin: 0;
 }
-.copyright, .text-align p {
+.text-align p, .center{
     text-align: center;
 }
-
 
 
